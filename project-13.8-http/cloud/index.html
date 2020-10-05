@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"> -->
+  <title>Bootstrap project</title>
+
+</head>
+
+<body>
+  <!--*********JUMBOTRON MADE OF BOOTSTRAP*******-->
+  <div class="jumbotron text-center">
+    <div class="container">
+      <h1>Bootstrap jumbotron
+        <br>
+        <small>My first jumbotron using bootsrap</small>
+      </h1>
+
+      <button class="btn btn-primary btn-lg">Action!</button>
+    </div>
+  </div>
+  <!--*********GALLERY MADE OF BOOTSTRAP*******-->
+  <div class="container">
+    <h1 class="text-center text-uppercase page-header">Gallery</h1>
+    <div class="row" align="center">
+      <div class="col-lg-3 col-sm-6 col-xs-12 ">
+        <img src="http://placehold.it/250x250" class="img-rounded img-responsive" alt="">
+      </div>
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+        <img src="http://placehold.it/250x250" class="img-rounded img-responsive" alt="">
+      </div>
+      <div class="col-lg-3 col-sm-6 col-xs-12 ">
+        <img src="http://placehold.it/250x250" class="img-rounded img-responsive" alt="">
+      </div>
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+        <img src="http://placehold.it/250x250" class="img-rounded img-responsive" alt="">
+      </div>
+    </div>
+  </div>
+
+
+  <!--*********TABLE MADE OF BOOTSTRAP*******-->
+  <div class="container">
+
+    <h2>Standard bootstrap table</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quidem minima facilis, commodi optio. Perferendis saepe
+      voluptatibus, odit optio nulla!</p>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>Smith</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr>
+          <td>Elisabeth</td>
+          <td>Tailor</td>
+          <td>elisa@example.com</td>
+        </tr>
+        <tr>
+          <td>Rose</td>
+          <td>Simson</td>
+          <td>rose@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--*********FORM MADE OF BOOTSTRAP*******-->
+  <div class="container">
+    <div class="form-container">
+      <h1 class="text-uppercase lead ">Join Us today!</h1>
+      <form>
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+          <label for="pass">Password:</label>
+          <input type="password" class="form-control" id="pass">
+        </div>
+        <div class="form-group">
+          <label for="text">Write us a message:</label>
+          <textarea class="form-control" rows="3" id="text" placeholder="Enter your message here"></textarea>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Remember me</label>
+        </div>
+        <button type="submit" class="btn btn-default btn-lg btn-success">Submit</button>
+      </form>
+    </div>
+  </div>
+
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

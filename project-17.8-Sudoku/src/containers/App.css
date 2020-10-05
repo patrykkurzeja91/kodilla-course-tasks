@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+input {
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #40739e;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    background: rgba(2, 17, 29, 0.13);
+    color: #b2aeae;
+    font-weight: bold;
+    outline: none;
+}
+.box {
+    margin: 0 auto;
+    width: 450px;
+    text-align: center;
+}
+button {
+    padding: 10px 20px;
+    border-style: none;
+    margin: 25px 10px;
+    background-color: #3498db;
+    font-size: 15px;
+    color: #ecf0f1;
+    cursor: pointer;
+}
+
+input:nth-child(9n + 1) {
+    border-left: 3px solid #2f3640;
+}
+
+/* border right board */
+
+input:nth-child(9n + 0) {
+    border-right: 3px solid #2f3640;
+}
+
+/* border top board */
+
+input:nth-child(-n + 9) {
+    border-top: 3px solid #2f3640;
+}
+
+/* border bottom board  */
+
+input:nth-child(n + 73) {
+    border-bottom: 3px solid #2f3640;
+}
+
+/* create squers */
+
+input:nth-child(27n + 1),
+input:nth-child(27n + 2),
+input:nth-child(27n + 3),
+input:nth-child(27n + 4),
+input:nth-child(27n + 5),
+input:nth-child(27n + 6),
+input:nth-child(27n + 7),
+input:nth-child(27n + 8),
+input:nth-child(27n + 9) 
+{
+    border-top: 3px solid #2f3640
+}
+
+input:nth-child(3n + 3) {
+    border-right: 3px solid #2f3640;    
+}
+.Buttons {
+    color: red;
+    font-size: 4rem;
+}
+.hidden {
+    display:none;
+ }
+ .shown{
+    display:block;
+ }
+ .active {
+     color: red
+ }

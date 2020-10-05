@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Country Search Engine</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- LINKS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1>Country search engine</h1>
+            <div class="box">
+                    
+                    <input id="country-name" type="text" />
+                    <button id="search"><span>Search country</span>
+                    </button>
+            </div>
+                    
+           
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-6 col-left">
+                    <ul>
+                            <li id='country-flag' class="first"></li>
+                    </ul>
+                    <ul>
+                        <li>Name of country</li>
+                        <li>Capital city</li>
+                        <li>Region (subregion)</li>
+                        <li>Population</li>
+                        <li>Area</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-6 col-right">
+                    <ul>
+                            <li class="first">Basic information</li>
+                    </ul>
+                    <ul id="countries">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- SCRIPTS with bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

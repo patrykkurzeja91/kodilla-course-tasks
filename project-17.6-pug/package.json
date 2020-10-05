@@ -1,0 +1,27 @@
+{
+  "name": "project-17.6-pug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patraspan/project-17.4-CRUD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patraspan/project-17.4-CRUD/issues"
+  },
+  "homepage": "https://github.com/patraspan/project-17.4-CRUD#readme",
+  "keywords": []
+}

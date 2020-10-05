@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC|EB+Garamond|Sacramento");
+main {
+  padding: 60px 30px 30px 30px;
+  height: 100vh;
+  background-color: #415a74;
+  color: #d0d0d2;
+  min-width: 577px; }
+
+.container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+  border: 1px solid #d0d0d2;
+  border-radius: 5px; }
+  .container .row {
+    margin: 0 auto; }
+  .container .btn {
+    background: #f3cba0;
+    border: 1px solid #f3cba0;
+    margin-right: 10px; }
+    .container .btn:hover {
+      background: #f3cba0;
+      border: 1px solid #f3cba0;
+      -webkit-filter: brightness(0.9);
+      filter: brightness(0.9); }
+    .container .btn:active {
+      outline: none; }
+  .container .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 10PX; }
+    .container .box input, .container .box button {
+      display: inline-block;
+      width: 200px;
+      height: 2.5rem;
+      border: none;
+      padding: 3px 20px;
+      border-radius: 3px;
+      text-transform: uppercase; }
+    .container .box button {
+      position: relative;
+      margin-left: 15px;
+      outline: none;
+      background: transparent;
+      color: #f3cba0; }
+      .container .box button::before, .container .box button::after {
+        content: '';
+        position: absolute;
+        -webkit-transition: -webkit-transform ease .3s;
+        transition: -webkit-transform ease .3s;
+        -o-transition: transform ease .3s;
+        transition: transform ease .3s;
+        transition: transform ease .3s, -webkit-transform ease .3s;
+        width: 100%;
+        height: 1px;
+        background: #f3cba0; }
+      .container .box button::after {
+        top: 0;
+        left: 0;
+        -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+        transform-origin: right; }
+      .container .box button:hover::after {
+        -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: left;
+        -ms-transform-origin: left;
+        transform-origin: left; }
+      .container .box button::before {
+        bottom: 0;
+        left: 0;
+        -webkit-transform-origin: left;
+        -ms-transform-origin: left;
+        transform-origin: left; }
+      .container .box button:hover::before {
+        -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+        transform-origin: right; }
+      .container .box button span {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        .container .box button span::before, .container .box button span::after {
+          content: '';
+          position: absolute;
+          -webkit-transition: -webkit-transform ease .3s;
+          transition: -webkit-transform ease .3s;
+          -o-transition: transform ease .3s;
+          transition: transform ease .3s;
+          transition: transform ease .3s, -webkit-transform ease .3s;
+          width: 1px;
+          height: 100%;
+          background: #f3cba0;
+          -webkit-transform: scale(0);
+          -ms-transform: scale(0);
+          transform: scale(0); }
+        .container .box button span::after {
+          top: 0;
+          left: 0;
+          -webkit-transform-origin: bottom;
+          -ms-transform-origin: bottom;
+          transform-origin: bottom; }
+        .container .box button span:hover::after {
+          -webkit-transform: scaleX(1);
+          -ms-transform: scaleX(1);
+          transform: scaleX(1);
+          -webkit-transform-origin: top;
+          -ms-transform-origin: top;
+          transform-origin: top; }
+        .container .box button span::before {
+          bottom: 0;
+          right: 0;
+          -webkit-transform-origin: top;
+          -ms-transform-origin: top;
+          transform-origin: top; }
+        .container .box button span:hover::before {
+          -webkit-transform: scaleX(1);
+          -ms-transform: scaleX(1);
+          transform: scaleX(1);
+          -webkit-transform-origin: bottom;
+          -ms-transform-origin: bottom;
+          transform-origin: bottom; }
+    .container .box input {
+      margin-right: 15px; }
+  .container .col-left {
+    padding-right: 0px; }
+  .container .col-right {
+    padding-left: 0; }
+    .container .col-right ul {
+      padding-left: 0;
+      padding-right: 40px; }
+  .container .flag {
+    height: 80px;
+    width: 100%;
+    display: block;
+    border: none; }
+  .container li {
+    list-style-type: none;
+    min-height: 50px;
+    border-bottom: 1px solid #d0d0d2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .container .first {
+    min-height: 90px;
+    font-weight: bold;
+    border: none;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end; }
+  .container #country-flag {
+    border: none; }
+  .container h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    position: relative;
+    font-size: 4rem;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: 'Amatic SC', cursive;
+    -webkit-transform: translateY(-55%);
+    -ms-transform: translateY(-55%);
+    transform: translateY(-55%); }
+    .container h1::before {
+      content: '';
+      height: 100%;
+      left: 0;
+      right: 0;
+      background: #415a74;
+      position: absolute;
+      z-index: -1; }

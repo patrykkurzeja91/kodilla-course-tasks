@@ -1,0 +1,22 @@
+{
+  "name": "project-19.3-reduxactions",
+  "version": "1.0.0",
+  "description": "testing actions in Redux",
+  "main": "actions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patraspan/project-19.3-ReduxActions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patraspan/project-19.3-ReduxActions/issues"
+  },
+  "homepage": "https://github.com/patraspan/project-19.3-ReduxActions#readme",
+  "dependencies": {
+    "uuid": "^3.2.1"
+  }
+}

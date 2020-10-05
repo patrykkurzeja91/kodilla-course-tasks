@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+img {
+    display: block;
+    max-width: 500px;
+    margin: 20px auto;
+    height: 300px;
+}
+a {
+    width: 200px;
+}

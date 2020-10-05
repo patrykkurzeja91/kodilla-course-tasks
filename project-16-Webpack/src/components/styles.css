@@ -1,0 +1,81 @@
+.Title {
+    text-transform: uppercase;
+    color: #f4f5f9;
+    
+    margin-bottom: 2rem;
+}
+.Title h1 {
+    margin-top: 1rem;
+}
+.Title h2 {
+    font-weight: 300
+
+}
+.TodoList{
+    font-size: 1.2rem;
+}
+
+.List{
+list-style: none;
+overflow-y: scroll;
+max-height: calc(100vh - 410px);
+}
+
+.Form{
+width: 100%;
+padding-bottom: 10px;
+margin-bottom: 10px;
+}
+.FormLabel{
+    float: left;
+display: block;
+width: 100%;
+color: #f4f5f9;
+margin-bottom: 5px;
+}
+.FormInput{
+    background: #fff;
+    display: block;
+    width: 70%;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #eaeaea;
+    float: left;
+    margin-right: 5%;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    
+}
+.FormButton{
+    width: 25%;
+    background: transparent;
+    border: 2px solid #fff;
+    display: block;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+text-transform: uppercase;
+font-family: 'Abel', sans-serif;
+font-size: 1.2rem;
+color: #f4f5f9;
+transition: all ease-in .1s
+}
+.FormButton:hover{
+    background: #fff;
+    color: initial;
+}
+.ListItem{
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    background: #dddfe6;
+    position: relative;
+    margin-bottom: 3px;
+    border-radius: 5px;
+}
+
+.fa-trash{
+    
+    color: #f4f5f9;
+    color: #f1404b;
+    color: #dddfe6;
+    color: #252c41;
+}

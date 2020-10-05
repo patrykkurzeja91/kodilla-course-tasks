@@ -1,0 +1,12 @@
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+}
+.form-group {
+    display: grid;
+    place-content: center;
+}

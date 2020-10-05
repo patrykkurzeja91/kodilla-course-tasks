@@ -1,0 +1,65 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.avatar {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+form {
+    background: #24292e;
+    padding: 0.5rem;
+}
+label {
+    padding:0  2rem;
+    margin: 0;
+    margin-left: 50px;
+    height: 100%;
+    vertical-align: middle;
+}
+input {
+    background: #4b4f53;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+input:placeholder {
+    color: #939698;
+}
+.users {
+padding: 2rem;
+
+}
+.user {
+    background: #F6F8FA;
+    margin: 5px 0;
+    padding: 10px 0;
+    transition: all ease-in 90ms
+}
+.user:hover {
+    transform: scale(1.1);
+    background: #e6ecf2;
+}
+.user a{
+text-decoration: none;
+color: #24292e;
+padding-top: 10px;
+}
+.user a:hover {
+    color: #3B5BDB
+}
+img {
+    margin: 0 auto;
+    max-width: 90%;
+
+}
+.fa-github {
+    color: #fff;
+    
+    font-size: 2rem;
+}

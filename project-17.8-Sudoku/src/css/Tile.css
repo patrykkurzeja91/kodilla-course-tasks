@@ -1,0 +1,13 @@
+.tile {
+    display: inline-block;
+    width: 10%;
+}
+.colorGrey {
+    color: #666
+}
+.colorBlack {
+    color: #000
+}
+.colorRed {
+    color: red
+}

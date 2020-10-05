@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+h1 {
+    font: sans-serif 3rem;
+}
+.fa-trash {
+    color: #f1404b;
+    float: right;
+    font-size: 1.2rem;
+    vertical-align: middle;
+    transition: all ease-in .1s;
+}
+.fa-trash:hover {
+    transform: scale(1.2)
+}
+.todo-container {
+    width: 460px;
+    min-width: 400px;
+}
+.todo-container h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+li {
+    list-style: none;
+    overflow: hidden;
+}
+img {
+    max-width: 60px;
+    margin-right: 1rem;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: transparent; 
+    
+}
+::-webkit-scrollbar-thumb {
+    background: #999; 
+    
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #666; 
+}

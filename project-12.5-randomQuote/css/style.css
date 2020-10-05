@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|EB+Garamond|Great+Vibes|Homemade+Apple|Sacramento");
+main {
+  padding: 60px 30px 30px 30px;
+  height: 100vh;
+}
+
+main {
+  background-color: #415a74;
+  color: #d0d0d2;
+}
+
+.container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+  border: 1px solid #d0d0d2;
+  border-radius: 5px;
+}
+
+.container h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+  font-size: 4rem;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: 'Amatic SC', cursive;
+  transform: translateY(-55%);
+}
+
+.container h1::before {
+  content: '';
+  height: 100%;
+  left: 0;
+  right: 0;
+  background: #415a74;
+  position: absolute;
+  z-index: -1;
+}
+
+.container #title {
+  font-style: italic;
+  margin: 0 auto;
+  font-size: 2.5rem;
+  font-family: 'Sacramento', cursive;
+}
+
+.container .box {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  padding: 0 80px;
+  transform: translateY(-50%);
+}
+
+.container .box .quote {
+  color: #f3cba0;
+  font-size: 3rem;
+  margin: 0 auto;
+  position: relative;
+  font-family: 'EB Garamond', serif;
+}
+
+.container .box .author {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.3rem;
+  font-family: 'EB Garamond', serif;
+}
+
+.container .button-box {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container .button-box .trigger, .container .button-box .tweet {
+  padding: 10px 30px;
+  margin: 6px;
+  background: none;
+  border: 1px solid #18202e;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #d0d0d2;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2rem;
+  transition: all ease .1s;
+}
+
+.container .button-box .trigger:hover, .container .button-box .tweet:hover {
+  background: #d0d0d2;
+  color: #18202e;
+}
+
+.container .button-box .trigger .fa, .container .button-box .tweet .fa {
+  margin-right: 10px;
+  transition: all ease .1s;
+}
+
+.container .button-box .trigger:hover .fa, .container .button-box .tweet:hover .fa {
+  color: #55acee;
+}
+/*# sourceMappingURL=style.css.map */

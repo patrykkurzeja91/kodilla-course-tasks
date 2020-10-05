@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Coming+Soon');
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #1E3B57;
+    color: #D9E5E0;
+    position: relative;
+    height: 100vh;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid #fff;
+    width: 60%;
+    min-width: 430px;
+}
+.controls {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+a {
+    display: inline-block;
+    text-align: center;
+    font: 700 1.5rem 'Comfortaa', cursive;
+    line-height: 2rem;
+    color: #BA5969;
+    text-decoration: none;
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 1.75rem;
+    border:1px solid #D9E5E0;
+    box-shadow: 2px 2px 18px -2px rgba(0, 0, 0, 0.5);
+    transition: all ease-in 70ms
+}
+a:hover {    
+    background: #D9E5E0;
+}
+.stopwatch {
+text-align: center;
+margin: 2rem auto;
+font: 5em 'Coming Soon', cursive;;
+}

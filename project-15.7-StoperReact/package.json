@@ -1,0 +1,29 @@
+{
+  "name": "project-15.7",
+  "version": "1.0.0",
+  "description": "StoperREACT",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel script.jsx --plugins transform-react-jsx --watch --out-file script-compiled.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patraspan/project-15.7-StoperReact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patraspan/project-15.7-StoperReact/issues"
+  },
+  "homepage": "https://github.com/patraspan/project-15.7-StoperReact#readme",
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}

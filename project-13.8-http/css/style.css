@@ -1,0 +1,29 @@
+img {
+    border: 2px solid;
+    background-size: cover;
+    
+}
+[class*="col-"] {
+    margin: 20px auto;
+}
+
+h2 {
+    margin: 30px auto;
+}
+
+table {
+    margin: 30px auto;
+}
+
+.form-container {
+    min-width: 300px;
+    width: 40vw;
+    margin: 20px auto;
+    padding: 20px 5vw;
+    background: #eee;
+    box-shadow: 3px 3px 15px #aaa;
+    border-radius: 10px;
+}
+textarea {
+    resize: vertical;
+}

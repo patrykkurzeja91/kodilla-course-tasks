@@ -1,0 +1,19 @@
+{
+  "name": "project-24.4-FormatDate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js",
+    "test:watch": "onchange \"./*.js\" -- npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "onchange": "^4.0.0"
+  }
+}

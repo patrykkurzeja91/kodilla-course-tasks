@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        title = name
+        link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css")
+        style
+            include ../css/loginStyle.css
+    body
+        
+        form.form-group(action='http://localhost:3000'+url, method='get')
+            label(for='first_name') First name
+            input#first_name.form-control(type='text', name='first_name', aria-describedby='helpId', placeholder='Your name')
+            
+            label(for='last_name') Last name
+            input#last_name.form-control(type='text', name='last_name', aria-describedby='helpId', placeholder='Your last name')
+            input.btn.btn-success(type='submit', value='Submit')
