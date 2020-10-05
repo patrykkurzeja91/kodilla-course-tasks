@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,600,800");
+body { font-family: 'Raleway', sans-serif; background-color: #95a5a6; color: #2c3e50; font-size: 16px; padding: 0; margin: 0; }
+
+strong { font-weight: 600; }
+
+/*header*/
+header { height: 60vh; padding: 30px; background-image: url("https://images.pexels.com/photos/169978/pexels-photo-169978.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"); background-repeat: no-repeat; background-position: center; background-size: cover; position: relative; opacity: 0.2; }
+
+header h1 { font-weight: 600; text-transform: uppercase; font-size: 56px; line-height: 80px; text-align: center; color: #ffc048; text-shadow: 3px 3px 3px #000; }
+
+/*main*/
+.container { width: 60%; max-width: 800px; margin: 20px auto; border-radius: 4px; background-color: #ecf0f1; padding: 50px; }
+
+.song-text { border-bottom: 1px solid rgba(149, 165, 166, 0.5); padding-bottom: 15px; margin: 0 15%; }
+
+.song-text p { line-height: 2; }
+
+h3 { font-size: 1.5em; text-align: center; font-weight: 300; font-style: italic; }
+
+.photo { display: -ms-flexbox; display: flex; width: 100%; }
+
+.photo img { margin: 50px auto; height: 350px; -o-object-fit: cover; object-fit: cover; }
+
+.test { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.test2 { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
