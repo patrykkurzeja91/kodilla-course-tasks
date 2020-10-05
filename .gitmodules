@@ -1,3 +1,15 @@
- [submodule "layout-golden-portfolio"]
-        path = layout-golden-portfolio
-        url = https://github.com/patrykkurzeja91/golden-portfolio
+[submodule "layout-golden-portfolio"]
+  path = layout-golden-portfolio
+  url = https://github.com/patrykkurzeja91/layout-golden-portfolio
+[submodule "chat-app"]
+  path = chat-app
+  url = https://github.com/patrykkurzeja91/chat-app
+[submodule "kanban-app"]
+  path = kanban-app
+  url = https://github.com/patrykkurzeja91/kanban-app
+[submodule "layout-mache"]
+  path = layout-mache
+  url = https://github.com/patrykkurzeja91/layout-mache
+[submodule "layout-photoapp"]
+  path = layout-photoapp
+  url = https://github.com/patrykkurzeja91/layout-photoapp
