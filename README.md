@@ -1,1 +1,1 @@
-Different tasks from Kodilla course
+Different tasks from Kodilla course.
