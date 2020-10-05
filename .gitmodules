@@ -1,3 +1,3 @@
- [submodule "golden-portfolio"]
-        path = golden-portfolio
+ [submodule "layout-golden-portfolio"]
+        path = layout-golden-portfolio
         url = https://github.com/patrykkurzeja91/golden-portfolio
