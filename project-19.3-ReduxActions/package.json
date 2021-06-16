@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/patraspan/project-19.3-ReduxActions#readme",
   "dependencies": {
-    "uuid": "^3.2.1"
+    "uuid": "^3.4.0"
   }
 }
