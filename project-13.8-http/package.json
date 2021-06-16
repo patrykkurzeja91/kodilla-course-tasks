@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mime-types": "^2.1.18",
+    "mime-types": "^2.1.30",
     "nodemon": "^1.17.5"
   },
   "devDependencies": {}
